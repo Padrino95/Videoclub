@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 222, 222);
+}
+div#carouselExampleIndicators {
+    height: 100vh;
+    overflow: hidden;
+
+}
+.plataformas{
+    height: 400px;
+}
+
+.color{
+    background-color: rgb(226, 222, 222);
+}
+
+@media only screen and (max-width: 992px) {
+    div#carouselExampleIndicators {
+        height: auto;
+    }
+}
